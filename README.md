@@ -1,5 +1,7 @@
 # Laser Mouse Controller
 
+[**Official Website**](https://laser.scieford.com/)
+
 Turn your Android phone into a laser pointer tracking device. Use any laser pointer to control your computer's mouse cursor—perfect for presentations or as a light gun emulator for retro shooting games.
 
 ## Features
