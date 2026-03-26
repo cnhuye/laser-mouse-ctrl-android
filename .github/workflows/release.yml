@@ -30,14 +30,20 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
 
+      - name: Create keystore directory
+        run: mkdir -p android/keystore
+
+      - name: Decode keystore
+        run: echo "${{ secrets.RELEASE_STORE_FILE }}" | base64 -d > android/keystore/release.jks
+
       - name: Build Android APK
         run: |
           cd android
           chmod +x gradlew
-          ./gradlew assembleDebug
+          ./gradlew assembleRelease
 
       - name: Upload APK
         uses: softprops/action-gh-release@v2
         with:
-          files: android/app/build/outputs/apk/debug/*.apk
+          files: android/app/build/outputs/apk/release/*.apk
           generate_release_notes: true
