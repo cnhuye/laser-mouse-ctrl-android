@@ -16,15 +16,12 @@ Turn your Android phone into a laser pointer tracking device. Use any laser poin
 
 ## Building
 
-```bash
-# Install dependencies
-./gradlew assembleDebug
+Open the project in Android Studio and build:
 
-# Build release APK
-./build_release.sh
-```
+1. **Debug APK**: Build → Build Bundle(s) / APK(s) → Build APK(s)
+2. **Release APK**: Build → Generate Signed Bundle / APK → APK
 
-The APK will be generated at `app/build/outputs/apk/release/`
+The APK will be generated at `app/build/outputs/apk/`
 
 ## Related Project
 
