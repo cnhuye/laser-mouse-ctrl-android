@@ -44,7 +44,7 @@ jobs:
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
         run: |
           chmod +x gradlew gradlew.bat
-          ./gradlew assembleRelease
+          ./gradlew assembleRelease --no-configuration-cache
 
       - name: Upload APK
         uses: softprops/action-gh-release@v2
