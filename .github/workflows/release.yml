@@ -38,7 +38,7 @@ jobs:
 
       - name: Build Android APK
         env:
-          RELEASE_STORE_FILE: app/keystore/upload.jks
+          RELEASE_STORE_FILE: ${{ github.workspace }}/app/keystore/upload.jks
           RELEASE_STORE_PASSWORD: ${{ secrets.RELEASE_STORE_PASSWORD }}
           RELEASE_KEY_ALIAS: ${{ secrets.RELEASE_KEY_ALIAS }}
           RELEASE_KEY_PASSWORD: ${{ secrets.RELEASE_KEY_PASSWORD }}
