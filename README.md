@@ -26,6 +26,11 @@ Turn your Android phone into a laser pointer tracking device. Use any laser poin
 
 The APK will be generated at `app/build/outputs/apk/release/`
 
+## Related Project
+
+This app works with the desktop server application:
+- [Laser Mouse Server (PC)](https://github.com/cnhuye/laser-mouse-ctrl-pc)
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
