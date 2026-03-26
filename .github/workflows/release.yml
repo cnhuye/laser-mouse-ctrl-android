@@ -31,10 +31,10 @@ jobs:
             ${{ runner.os }}-gradle-
 
       - name: Create keystore directory
-        run: mkdir -p keystore
+        run: mkdir -p app/keystore
 
       - name: Decode keystore
-        run: echo "${{ secrets.RELEASE_STORE_FILE }}" | base64 -d > keystore/upload.jks
+        run: echo "${{ secrets.RELEASE_STORE_FILE }}" | base64 -d > app/keystore/upload.jks
 
       - name: Build Android APK
         run: |
