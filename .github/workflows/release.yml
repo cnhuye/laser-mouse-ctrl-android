@@ -34,7 +34,7 @@ jobs:
         run: mkdir -p keystore
 
       - name: Decode keystore
-        run: echo "${{ secrets.RELEASE_STORE_FILE }}" | base64 -d > keystore/release.jks
+        run: echo "${{ secrets.RELEASE_STORE_FILE }}" | base64 -d > keystore/upload.jks
 
       - name: Build Android APK
         run: |
