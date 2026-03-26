@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.scieford.laserctrlmouse",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 7,
+      "versionName": "1.0.4",
+      "outputFile": "LaserCtrlMouse-v1.0.4-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

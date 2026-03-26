@@ -1,0 +1,282 @@
+<resources>
+    <string name="app_name">LaserCtrlMouse</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="language_title">Interface Language</string>
+    <string name="frame_rate_mode_title">Frame Rate Mode</string>
+    <string name="normal_frame_rate">Normal Frame Rate</string>
+    <string name="high_speed_frame_rate">High Speed Frame Rate</string>
+    <string name="high_speed_frame_rate_note">Only supports 1920x1080, 1280x720. If phone performance is insufficient, the APP may exit due to overheating.</string>
+    <string name="camera_selection_title">Camera Selection</string>
+    <string name="resolution_title">Resolution</string>
+    <string name="exposure_time_title">Exposure Time</string>
+    <string name="exposure_time_unit">ms</string>
+    <string name="iso_sensitivity">ISO Sensitivity</string>
+    <string name="iso_sensitivity_desc">Set camera sensitivity, higher values are more sensitive in dark environments</string>
+    <string name="iso_sensitivity_title">ISO Sensitivity</string>
+    <string name="back">Back</string>
+    <string name="reset_defaults">Reset to Defaults</string>
+    
+    <!-- Main Screen -->
+    <string name="start_detection">Start Detection</string>
+    <string name="debug_test">Debug Test</string>
+    <string name="screen_detection_test">Screen Detection Test</string>
+    <string name="get_camera_info">Get Camera Info</string>
+    <string name="connect_server">Connect PC</string>
+    <string name="help">Help</string>
+    <string name="connected">Connected</string>
+    <string name="settings">Settings</string>
+    <string name="system_settings">System</string>
+    <string name="feedback">Feedback</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="website">Website</string>
+    <string name="user_level">User Level</string>
+    <string name="upgrade_vip">Upgrade VIP</string>
+    <string name="current_version">Current Version</string>
+    
+    <!-- Settings Related -->
+    <string name="camera_restart_required">Settings changed, camera will restart</string>
+    
+    <!-- Status Information -->
+    <string name="current_status">Current Status</string>
+    <string name="current_camera">Current Camera</string>
+    <string name="current_fps">Current FPS</string>
+    <string name="orientation">Orientation</string>
+    <string name="resolution">Resolution</string>
+    <string name="battery_temperature">Battery Temperature</string>
+    <string name="cpu_temperature">CPU Temperature</string>
+    <string name="laser_point_coordinates">Laser Point Coordinates</string>
+    <string name="portrait">Portrait</string>
+    <string name="landscape">Landscape</string>
+    
+    <!-- Status Descriptions -->
+    <string name="status_camera_preview">Camera Preview</string>
+    <string name="status_screen_detection">Screen Area Detection</string>
+    <string name="status_laser_detection">Laser Point Detection</string>
+    
+    <!-- Hints -->
+    <string name="hint_camera_ready">Camera Ready</string>
+    <string name="hint_screen_detection">Detecting screen area, point camera at the template image on screen</string>
+    <string name="hint_laser_detection">Detecting laser point, use laser pointer to point at screen</string>
+    
+    <!-- Camera Information -->
+    <string name="front_camera">Front Camera</string>
+    <string name="back_camera">Back Camera</string>
+    <string name="external_camera">External Camera</string>
+    <string name="camera_id_format">%s Camera %s</string>
+    
+    <!-- Camera Detail Information -->
+    <string name="camera_facing_front">Front</string>
+    <string name="camera_facing_back">Back</string>
+    <string name="camera_facing_external">External</string>
+    <string name="camera_facing_unknown">Unknown</string>
+    <string name="camera_focal_length">Focal Length</string>
+    <string name="camera_focal_length_unknown">Unknown Focal Length</string>
+    <string name="camera_hardware_level">Level</string>
+    <string name="camera_support_high_speed">Supports High Speed Frame Rate</string>
+    <string name="camera_support_normal_only">Normal Frame Rate Only</string>
+    <string name="camera_support_none">No Preview Support</string>
+    <string name="camera_support_high_speed_short">High Speed</string>
+    <string name="camera_support_normal_only_short">Normal Only</string>
+    <string name="camera_support_none_short">Not Supported</string>
+    <string name="camera_focal_length_unit">mm</string>
+    <string name="camera_unknown">Unknown</string>
+    
+    <!-- Focal Length Types -->
+    <string name="focal_length_ultra_wide">Ultra Wide</string>
+    <string name="focal_length_wide">Wide</string>
+    <string name="focal_length_standard">Standard</string>
+    <string name="focal_length_telephoto">Telephoto</string>
+    <string name="focal_length_super_telephoto">Super Telephoto</string>
+    
+    <!-- Test Strings (for language switch verification) -->
+    <string name="test_language_switch">Language Switch Test</string>
+    <string name="settings_applied">Settings Applied</string>
+    
+    <!-- Settings Interface -->
+    <string name="interface_language">Interface Language</string>
+    <string name="interface_language_desc">Select the display language for the application interface</string>
+    <string name="frame_rate_mode">Frame Rate Mode</string>
+    <string name="frame_rate_mode_desc">Choose camera working mode, high-speed mode provides higher frame rates</string>
+    <string name="camera_selection">Camera Selection</string>
+    <string name="camera_selection_desc">Select the camera for laser point detection</string>
+    <string name="resolution_desc">Set camera preview and detection resolution</string>
+    <string name="exposure_time">Exposure Time</string>
+    <string name="exposure_time_desc">Exposure time during laser point detection phase</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    <string name="digital_zoom">Zoom</string>
+    <string name="zoom_ratio">Zoom Ratio</string>
+    <string name="zoom_1x">1x</string>
+    <string name="threshold">Laser Detection Threshold</string>
+    <string name="threshold_desc">Set laser point detection sensitivity, higher values provide more accurate detection</string>
+    <string name="min_brightness">Minimum Brightness Threshold</string>
+    <string name="min_brightness_desc">Set minimum brightness requirement for laser points to filter out dim noise</string>
+    
+    <!-- Errors and Messages -->
+    <string name="high_speed_not_supported">Device does not support high speed frame rate mode</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    
+    <!-- Version Check Related -->
+    <string name="update_available_title">Update Available</string>
+    <string name="force_update_title">Update Required</string>
+    <string name="current_version_label">Current Version</string>
+    <string name="latest_version_label">Latest Version</string>
+    <string name="update_description_label">Update Description</string>
+    <string name="download_update">Download Update</string>
+    <string name="update_now">Update Now</string>
+    <string name="invalid_download_url">Invalid download URL</string>
+    <string name="no_browser_available">No browser application available</string>
+    <string name="open_download_link_failed">Failed to open download link: %s</string>
+    <string name="version_check_failed">Version check failed</string>
+    <string name="checking_version">Checking for version updates...</string>
+    <string name="check_for_updates">Check for Updates</string>
+    <string name="checking">Checking...</string>
+    <string name="current_version_is_latest">Current version is up to date</string>
+    
+    <!-- User Level Related -->
+    <string name="normal_user">Normal User</string>
+    <string name="vip_user">VIP User</string>
+    
+    <!-- VIP Purchase Related -->
+    <string name="vip_purchase_title">VIP Membership</string>
+    <string name="vip_monthly">Monthly VIP</string>
+    <string name="vip_yearly">Yearly VIP</string>
+    <string name="vip_lifetime">Lifetime VIP</string>
+    <string name="vip_feature_1">Advanced Features</string>
+    <string name="vip_feature_2">Premium Support</string>
+    <string name="vip_feature_3">Ad-free Experience</string>
+    <string name="vip_feature_4">Early Access to New Features</string>
+    <string name="purchase">Purchase</string>
+    <string name="vip_purchase_success">Purchase successful! Thank you for your support</string>
+    <string name="vip_purchase_failed">Purchase failed, please try again</string>
+    
+    <!-- Feedback Related -->
+    <string name="feedback_title">Feedback</string>
+    <string name="feedback_submit">Submit Feedback</string>
+    <string name="feedback_hint">Please describe the issue or suggestion...</string>
+    <string name="feedback_thanks">Thank you for your feedback!</string>
+    
+    <!-- System Settings Related -->
+    <string name="system_settings_title">System</string>
+    <string name="current_user_level">Current Level</string>
+    
+    <!-- Feedback Screen Related -->
+    <string name="feedback_center">Feedback Center</string>
+    <string name="feedback_description">Feedback Guidelines</string>
+    <string name="feedback_description_content">We highly value your opinions and suggestions!\n\n• Encountered a problem? Please describe the issue in detail\n• Have a great idea? Tell us your suggestions\n• User experience? Share your experience with us\n\nRelevant log files will be automatically uploaded with feedback to help us better identify and resolve issues.</string>
+    <string name="common_questions">Frequently Asked Questions</string>
+    <string name="start_feedback">Submit Feedback</string>
+    <string name="start_feedback_desc">Click the button below to start feedback</string>
+    <string name="feedback_submit_button">Start Feedback</string>
+    <string name="feedback_success">Feedback submitted successfully! Thank you for your feedback, we will process it as soon as possible.</string>
+    <string name="feedback_failed">Feedback submission failed: %s</string>
+    <string name="congratulations_vip">Congratulations on becoming a VIP user!</string>
+    
+    <!-- FAQ -->
+    <string name="q_camera_startup">Camera won\'t start</string>
+    <string name="a_camera_startup">Check camera permissions, restart app</string>
+    <string name="q_laser_detection">Laser point detection inaccurate</string>
+    <string name="a_laser_detection">Adjust detection threshold, ensure sufficient lighting</string>
+    <string name="q_connection_failed">Client connection failed</string>
+    <string name="a_connection_failed">Check network connection, confirm client address</string>
+    <string name="q_app_lag">App lagging</string>
+    <string name="a_app_lag">Close other apps, reduce detection resolution</string>
+    
+    <!-- Connection Screen Related -->
+    <string name="searching_servers">Searching for clients...</string>
+    <string name="connecting_to">Connecting to %s...</string>
+    <string name="refresh">Refresh</string>
+    <string name="connection_success">Connection successful</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="connected_to_server">Connected to client</string>
+    <string name="connection_lost">Connection lost</string>
+    <string name="connecting_please_wait">Connecting, please wait...</string>
+    <string name="no_browser_found">No browser application found</string>
+    <string name="open_help_failed">Failed to open help page: %s</string>
+    <string name="open_website_failed">Failed to open website: %s</string>
+    
+    <!-- System Screen Menu Items -->
+    <string name="feedback_menu_title">Feedback</string>
+    <string name="feedback_menu_subtitle">Bug reports and suggestions</string>
+    <string name="privacy_policy_menu_title">Privacy Policy</string>
+    <string name="privacy_policy_menu_subtitle">User agreement and privacy policy</string>
+    <string name="help_menu_title">Help</string>
+    <string name="help_menu_subtitle">Usage help and FAQ</string>
+    <string name="website_menu_title">Website</string>
+    <string name="website_menu_subtitle">Visit official website</string>
+    <string name="pc_client_menu_title">Get PC Client</string>
+    <string name="pc_client_menu_subtitle">Download PC client application</string>
+    <string name="user_level_title">User Level</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="vip">VIP</string>
+    <string name="version_unknown">Unknown</string>
+    
+    <!-- ConnectActivity Layout Related -->
+    <string name="connect_to_client">Connect to Client</string>
+    <string name="no_clients_found">No clients found</string>
+    <string name="get_pc_client_link"><u>Get PC Client</u></string>
+    
+    <!-- Server List Item Related -->
+    <string name="client_name">Client Name</string>
+    <string name="client_ip">IP: %s</string>
+    <string name="screen_resolution">Resolution: %s</string>
+    <string name="screen_resolution_placeholder">Resolution: 1920x1080</string>
+    <string name="connect">Connect</string>
+    <string name="connected_status">Connected</string>
+    
+    <!-- Dialog and Toast Messages -->
+    <string name="disconnect_title">Disconnect</string>
+    <string name="disconnect_message">Currently connected to client, do you want to disconnect?</string>
+    <string name="confirm">Confirm</string>
+    <string name="disconnected_from_server">Disconnected from client</string>
+    <string name="disconnect_failed">Disconnect failed: %s</string>
+    <string name="not_connected_title">Not Connected to Client</string>
+    <string name="not_connected_message">Need to connect to client first to start detection. Connect now?</string>
+    <string name="connected_to_server_toast">Connected to client: %s</string>
+    <string name="connected_with_name">Connected: %s</string>
+    <string name="camera_permission_required">Camera permission required to run application</string>
+    <string name="opencv_init_failed">OpenCV initialization failed</string>
+    <string name="server_connection_lost">Connection to client lost</string>
+    <string name="template_file_prepare_failed">Template file preparation failed: %s</string>
+    <string name="laser_detector_init_failed">Laser detector initialization failed: %s</string>
+    <string name="gpu_resource_recreated">GPU resources recreated successfully</string>
+    <string name="press_back_again_to_exit">Press back again to exit application</string>
+    <string name="gpu_image_processor_recreated">GPU image processor recreated successfully</string>
+    <string name="log_upload_success">Log upload successful! Thank you for your feedback.</string>
+    <string name="log_upload_failed">Log upload failed: %s</string>
+    
+    <!-- Feedback Screen Error Messages -->
+    <string name="webpage_load_failed">Webpage loading failed</string>
+    <string name="check_network_connection">Please check your network connection and try again</string>
+    <string name="reload">Reload</string>
+    
+    <!-- Log Upload Dialog -->
+    <string name="upload_logs">Upload Logs</string>
+    <string name="feedback_description_prompt">Please describe the issue or feedback (optional):</string>
+    <string name="feedback_description_label">Issue description or suggestion</string>
+    <string name="feedback_description_placeholder">e.g.: App stuck at certain step, feature suggestions, etc...</string>
+    <string name="contact_info_prompt">Contact information (optional):</string>
+    <string name="contact_info_label">Email or other contact information</string>
+    <string name="contact_info_placeholder">e.g.: your.email@example.com</string>
+    <string name="upload">Upload</string>
+    <string name="uploading">Uploading...</string>
+    <string name="upload_success_title">Upload Successful</string>
+    <string name="upload_failed_title">Upload Failed</string>
+    <string name="upload_content_info">Content to be uploaded:\n• Application log files\n• Device information\n• Timestamps</string>
+    
+    <!-- LogManager Related -->
+    <string name="logmanager_not_initialized">LogManager not initialized</string>
+    <string name="log_files_info_title">Log Files Information</string>
+    <string name="clear_logs">Clear Logs</string>
+    <string name="clear_logs_confirmation_title">Clear Logs</string>
+    <string name="clear_logs_confirmation_message">Are you sure you want to clear all log files?\n\nOnce cleared, these log data cannot be recovered.</string>
+    <string name="clear_logs_confirm">Confirm Clear</string>
+    <string name="logs_cleared">Log files have been cleared</string>
+    <string name="clear_logs_failed">Failed to clear logs: %s</string>
+    <string name="get_log_info_failed">Failed to get log information: %s</string>
+</resources> 

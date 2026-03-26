@@ -1,0 +1,280 @@
+<resources>
+    <string name="app_name">LaserCtrlMouse</string>
+    
+    <!-- 设置界面 -->
+    <string name="settings_title">设置</string>
+    <string name="settings">设置</string>
+    <string name="interface_language">界面语言</string>
+    <string name="interface_language_desc">选择应用界面显示的语言</string>
+    <string name="language_title">界面语言</string>
+    <string name="frame_rate_mode">帧率模式</string>
+    <string name="frame_rate_mode_desc">选择摄像头的工作模式，高速模式可获得更高帧率</string>
+    <string name="frame_rate_mode_title">帧率模式</string>
+    <string name="normal_frame_rate">普通帧率</string>
+    <string name="high_speed_frame_rate">高速帧率</string>
+    <string name="high_speed_frame_rate_note">仅支持1920x1080, 1280x720. 若手机性能不足, 可能因为过热导致APP退出.</string>
+    <string name="camera_selection">摄像头选择</string>
+    <string name="camera_selection_desc">选择用于激光点检测的摄像头</string>
+    <string name="camera_selection_title">摄像头选择</string>
+    <string name="resolution">分辨率</string>
+    <string name="resolution_desc">设置摄像头预览和检测的分辨率</string>
+    <string name="resolution_title">分辨率</string>
+    <string name="exposure_time">曝光时间</string>
+    <string name="exposure_time_desc">激光点检测阶段时的曝光时间</string>
+    <string name="exposure_time_title">曝光时间</string>
+    <string name="exposure_time_unit">ms</string>
+    <string name="iso_sensitivity">ISO感光度</string>
+    <string name="iso_sensitivity_desc">设置摄像头的感光度，数值越高在暗环境下越敏感</string>
+    <string name="iso_sensitivity_title">ISO感光度</string>
+    <string name="digital_zoom">变焦</string>
+    <string name="zoom_ratio">变焦倍数</string>
+    <string name="zoom_1x">1x</string>
+    <string name="threshold">激光点检测阈值</string>
+    <string name="threshold_desc">设置激光点检测的敏感度，数值越高检测越精确</string>
+    <string name="min_brightness">最小亮度阈值</string>
+    <string name="min_brightness_desc">设置激光点的最小亮度要求，过滤较暗的噪点</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="reset">重置</string>
+    <string name="back">返回</string>
+    <string name="reset_defaults">重置为默认</string>
+    
+    <!-- 主界面 -->
+    <string name="start_detection">开始检测</string>
+    <string name="debug_test">调试测试</string>
+    <string name="screen_detection_test">屏幕检测测试</string>
+    <string name="get_camera_info">获取摄像头信息</string>
+    <string name="connect_server">连接受控端</string>
+    <string name="help">帮助</string>
+    <string name="connected">已连接</string>
+    <string name="system_settings">系统</string>
+    <string name="feedback">反馈</string>
+    <string name="privacy_policy">使用协议</string>
+    <string name="website">官网</string>
+    <string name="user_level">用户级别</string>
+    <string name="upgrade_vip">升级VIP</string>
+    <string name="current_version">当前版本</string>
+    
+    <!-- 设置相关 -->
+    <string name="camera_restart_required">设置已更改，摄像头将重新启动</string>
+    
+    <!-- 状态信息 -->
+    <string name="current_status">当前状态</string>
+    <string name="current_camera">当前摄像头</string>
+    <string name="current_fps">当前帧率</string>
+    <string name="orientation">方向</string>
+    <string name="battery_temperature">电池温度</string>
+    <string name="cpu_temperature">CPU温度</string>
+    <string name="laser_point_coordinates">激光点坐标</string>
+    <string name="portrait">竖屏</string>
+    <string name="landscape">横屏</string>
+    
+    <!-- 状态描述 -->
+    <string name="status_camera_preview">摄像头预览</string>
+    <string name="status_screen_detection">屏幕区域检测</string>
+    <string name="status_laser_detection">激光点检测</string>
+    
+    <!-- 提示信息 -->
+    <string name="hint_camera_ready">摄像头已就绪</string>
+    <string name="hint_screen_detection">正在检测屏幕区域，请将摄像头对准显示模板图像的屏幕</string>
+    <string name="hint_laser_detection">正在检测激光点，请使用激光笔指向屏幕</string>
+    
+    <!-- 摄像头信息 -->
+    <string name="front_camera">前置摄像头</string>
+    <string name="back_camera">后置摄像头</string>
+    <string name="external_camera">外置摄像头</string>
+    <string name="camera_id_format">%s摄像头 %s</string>
+    
+    <!-- 摄像头详细信息 -->
+    <string name="camera_facing_front">前置</string>
+    <string name="camera_facing_back">后置</string>
+    <string name="camera_facing_external">外置</string>
+    <string name="camera_facing_unknown">未知</string>
+    <string name="camera_focal_length">焦距</string>
+    <string name="camera_focal_length_unknown">未知焦距</string>
+    <string name="camera_hardware_level">等级</string>
+    <string name="camera_support_high_speed">支持高速帧率</string>
+    <string name="camera_support_normal_only">仅支持普通帧率</string>
+    <string name="camera_support_none">不支持预览</string>
+    <string name="camera_support_high_speed_short">支持高速</string>
+    <string name="camera_support_normal_only_short">仅普通帧率</string>
+    <string name="camera_support_none_short">不支持</string>
+    <string name="camera_focal_length_unit">mm</string>
+    <string name="camera_unknown">未知</string>
+    
+    <!-- 焦距类型 -->
+    <string name="focal_length_ultra_wide">超广角</string>
+    <string name="focal_length_wide">广角</string>
+    <string name="focal_length_standard">标准</string>
+    <string name="focal_length_telephoto">长焦</string>
+    <string name="focal_length_super_telephoto">超长焦</string>
+    
+    <!-- 测试字符串（用于验证语言切换功能） -->
+    <string name="test_language_switch">语言切换测试</string>
+    <string name="settings_applied">设置已应用</string>
+    
+    <!-- 错误和提示 -->
+    <string name="high_speed_not_supported">设备不支持高速帧率模式</string>
+    <string name="settings_saved">设置已保存</string>
+    <string name="error">错误</string>
+    <string name="ok">确定</string>
+    
+    <!-- 版本检查相关 -->
+    <string name="update_available_title">发现新版本</string>
+    <string name="force_update_title">需要更新</string>
+    <string name="current_version_label">当前版本</string>
+    <string name="latest_version_label">最新版本</string>
+    <string name="update_description_label">更新内容</string>
+    <string name="download_update">立即下载</string>
+    <string name="update_now">立即更新</string>
+    <string name="invalid_download_url">下载链接无效</string>
+    <string name="no_browser_available">没有找到可用的浏览器应用</string>
+    <string name="open_download_link_failed">打开下载链接失败：%s</string>
+    <string name="version_check_failed">版本检查失败</string>
+    <string name="checking_version">正在检查版本更新...</string>
+    <string name="check_for_updates">检查更新</string>
+    <string name="checking">检查中...</string>
+    <string name="current_version_is_latest">当前版本已是最新版本</string>
+    
+    <!-- 用户级别相关 -->
+    <string name="normal_user">普通用户</string>
+    <string name="vip_user">VIP用户</string>
+    
+    <!-- VIP购买相关 -->
+    <string name="vip_purchase_title">VIP会员</string>
+    <string name="vip_monthly">月度会员</string>
+    <string name="vip_yearly">年度会员</string>
+    <string name="vip_lifetime">终身会员</string>
+    <string name="vip_feature_1">高级功能解锁</string>
+    <string name="vip_feature_2">专属技术支持</string>
+    <string name="vip_feature_3">无广告体验</string>
+    <string name="vip_feature_4">优先体验新功能</string>
+    <string name="purchase">购买</string>
+    <string name="vip_purchase_success">购买成功！感谢您的支持</string>
+    <string name="vip_purchase_failed">购买失败，请重试</string>
+    
+    <!-- 反馈相关 -->
+    <string name="feedback_title">意见反馈</string>
+    <string name="feedback_submit">提交反馈</string>
+    <string name="feedback_hint">请描述您遇到的问题或建议...</string>
+    <string name="feedback_thanks">感谢您的反馈！</string>
+    
+    <!-- 系统设置相关 -->
+    <string name="system_settings_title">系统</string>
+    <string name="current_user_level">当前级别</string>
+    
+    <!-- 反馈界面相关 -->
+    <string name="feedback_center">反馈中心</string>
+    <string name="feedback_description">反馈说明</string>
+    <string name="feedback_description_content">我们非常重视您的意见和建议！\n\n• 遇到问题？请详细描述问题现象\n• 有好想法？告诉我们您的建议\n• 使用体验？分享您的使用感受\n\n反馈时会自动上传相关日志文件，帮助我们更好地定位和解决问题。</string>
+    <string name="common_questions">常见问题</string>
+    <string name="start_feedback">提交反馈</string>
+    <string name="start_feedback_desc">点击下方按钮开始反馈</string>
+    <string name="feedback_submit_button">开始反馈</string>
+    <string name="feedback_success">反馈提交成功！感谢您的反馈，我们会尽快处理。</string>
+    <string name="feedback_failed">反馈提交失败：%s</string>
+    <string name="congratulations_vip">恭喜您成为VIP用户！</string>
+    
+    <!-- 常见问题 -->
+    <string name="q_camera_startup">摄像头无法启动</string>
+    <string name="a_camera_startup">检查摄像头权限，重启应用</string>
+    <string name="q_laser_detection">激光点检测不准确</string>
+    <string name="a_laser_detection">调整检测阈值，确保光线充足</string>
+    <string name="q_connection_failed">受控端连接失败</string>
+    <string name="a_connection_failed">检查网络连接，确认受控端地址</string>
+    <string name="q_app_lag">应用卡顿</string>
+    <string name="a_app_lag">关闭其他应用，降低检测分辨率</string>
+    
+    <!-- 连接界面相关 -->
+    <string name="searching_servers">正在搜索受控端...</string>
+    <string name="connecting_to">正在连接到 %s...</string>
+    <string name="refresh">刷新</string>
+    <string name="connection_success">连接成功</string>
+    <string name="connection_failed">连接失败</string>
+    <string name="connected_to_server">已连接到受控端</string>
+    <string name="connection_lost">连接断开</string>
+    <string name="connecting_please_wait">正在连接中，请稍候...</string>
+    <string name="no_browser_found">没有找到可用的浏览器应用</string>
+    <string name="open_help_failed">打开帮助页面失败: %s</string>
+    <string name="open_website_failed">打开官网失败: %s</string>
+    
+    <!-- 系统界面菜单项 -->
+    <string name="feedback_menu_title">反馈</string>
+    <string name="feedback_menu_subtitle">问题反馈和建议</string>
+    <string name="privacy_policy_menu_title">使用协议</string>
+    <string name="privacy_policy_menu_subtitle">用户协议和隐私政策</string>
+    <string name="help_menu_title">帮助</string>
+    <string name="help_menu_subtitle">使用帮助和常见问题</string>
+    <string name="website_menu_title">官网</string>
+    <string name="website_menu_subtitle">访问官方网站</string>
+    <string name="pc_client_menu_title">获取电脑端</string>
+    <string name="pc_client_menu_subtitle">下载电脑端受控程序</string>
+    <string name="user_level_title">用户级别</string>
+    <string name="upgrade">升级</string>
+    <string name="vip">VIP</string>
+    <string name="version_unknown">未知</string>
+    
+    <!-- ConnectActivity布局相关 -->
+    <string name="connect_to_client">连接到受控端</string>
+    <string name="no_clients_found">未找到受控端</string>
+    <string name="get_pc_client_link"><u>获取电脑端</u></string>
+    
+    <!-- 服务器列表项相关 -->
+    <string name="client_name">受控端名称</string>
+    <string name="client_ip">IP: %s</string>
+    <string name="screen_resolution">分辨率: %s</string>
+    <string name="screen_resolution_placeholder">分辨率: 1920x1080</string>
+    <string name="connect">连接</string>
+    <string name="connected_status">已连接</string>
+    
+    <!-- Dialog and Toast Messages -->
+    <string name="disconnect_title">断开连接</string>
+    <string name="disconnect_message">当前已连接到受控端，是否要断开连接？</string>
+    <string name="confirm">确定</string>
+    <string name="disconnected_from_server">已断开与受控端的连接</string>
+    <string name="disconnect_failed">断开连接失败: %s</string>
+    <string name="not_connected_title">未连接受控端</string>
+    <string name="not_connected_message">需要先连接到受控端才能开始检测。是否立即连接？</string>
+    <string name="connected_to_server_toast">已连接到受控端：%s</string>
+    <string name="connected_with_name">已连接: %s</string>
+    <string name="camera_permission_required">需要摄像头权限才能运行应用</string>
+    <string name="opencv_init_failed">OpenCV初始化失败</string>
+    <string name="server_connection_lost">与受控端的连接已断开</string>
+    <string name="template_file_prepare_failed">准备模板文件失败: %s</string>
+    <string name="laser_detector_init_failed">初始化激光点检测器失败: %s</string>
+    <string name="gpu_resource_recreated">GPU资源重新创建完成</string>
+    <string name="press_back_again_to_exit">再次按返回键退出应用</string>
+    <string name="gpu_image_processor_recreated">GPU图像处理器已重新创建</string>
+    <string name="log_upload_success">日志上传成功！感谢您的反馈。</string>
+    <string name="log_upload_failed">日志上传失败：%s</string>
+    
+    <!-- 反馈界面错误信息 -->
+    <string name="webpage_load_failed">网页加载失败</string>
+    <string name="check_network_connection">请检查网络连接后重试</string>
+    <string name="reload">重新加载</string>
+    
+    <!-- 日志上传对话框 -->
+    <string name="upload_logs">上传日志</string>
+    <string name="feedback_description_prompt">请描述遇到的问题或反馈建议（可选）：</string>
+    <string name="feedback_description_label">问题描述或建议</string>
+    <string name="feedback_description_placeholder">例如：应用在某个步骤卡住、功能建议等...</string>
+    <string name="contact_info_prompt">联系方式（可选）：</string>
+    <string name="contact_info_label">邮箱或其他联系方式</string>
+    <string name="contact_info_placeholder">例如：your.email@example.com</string>
+    <string name="upload">上传</string>
+    <string name="uploading">上传中...</string>
+    <string name="upload_success_title">上传成功</string>
+    <string name="upload_failed_title">上传失败</string>
+    <string name="upload_content_info">将要上传的内容：\n• 应用日志文件\n• 设备信息\n• 时间戳</string>
+    
+    <!-- LogManager相关 -->
+    <string name="logmanager_not_initialized">LogManager未初始化</string>
+    <string name="log_files_info_title">日志文件信息</string>
+    <string name="clear_logs">清理日志</string>
+    <string name="clear_logs_confirmation_title">清理日志</string>
+    <string name="clear_logs_confirmation_message">确定要清理所有日志文件吗？\n\n清理后将无法恢复这些日志数据。</string>
+    <string name="clear_logs_confirm">确定清理</string>
+    <string name="logs_cleared">日志文件已清理</string>
+    <string name="clear_logs_failed">清理日志失败：%s</string>
+    <string name="get_log_info_failed">获取日志信息失败：%s</string>
+</resources>

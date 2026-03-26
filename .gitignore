@@ -1,0 +1,45 @@
+# IDE
+*.iml
+.gradle
+.cursorrules
+.idea/
+
+# Build outputs
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+keystore/
+*.jks
+*.apk
+*.aab
+
+# Documentation (internal)
+TODO.md
+LANGUAGE_SETTING_SOLUTION.md
+GOOGLE_PLAY_UPLOAD_GUIDE.md
+UPLOAD_CHECKLIST.md
+
+# Sensitive files
+secret.md
+
+# Privacy policy (generated files, keep if needed for app)
+privacy_policy*.md
+privacy_policy*.html
+logo.png
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+keystore/
+*.jks
