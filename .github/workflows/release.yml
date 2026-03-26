@@ -31,19 +31,18 @@ jobs:
             ${{ runner.os }}-gradle-
 
       - name: Create keystore directory
-        run: mkdir -p android/keystore
+        run: mkdir -p keystore
 
       - name: Decode keystore
-        run: echo "${{ secrets.RELEASE_STORE_FILE }}" | base64 -d > android/keystore/release.jks
+        run: echo "${{ secrets.RELEASE_STORE_FILE }}" | base64 -d > keystore/release.jks
 
       - name: Build Android APK
         run: |
-          cd android
           chmod +x gradlew gradlew.bat
-          sh gradlew assembleRelease
+          ./gradlew assembleRelease
 
       - name: Upload APK
         uses: softprops/action-gh-release@v2
         with:
-          files: android/app/build/outputs/apk/release/*.apk
+          files: app/build/outputs/apk/release/*.apk
           generate_release_notes: true
