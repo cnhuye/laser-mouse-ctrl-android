@@ -65,4 +65,4 @@ This app works with the desktop server application:
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+GNU General Public License v3 (GPL v3) - see [LICENSE](LICENSE) file for details.
